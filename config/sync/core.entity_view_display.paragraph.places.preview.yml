@@ -1,0 +1,46 @@
+uuid: f201d1d8-a812-4524-a6db-0b93bc016b0a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.places.field_description
+    - field.field.paragraph.places.field_photo
+    - field.field.paragraph.places.field_site
+    - image.style.places_400x400_
+    - paragraphs.paragraphs_type.places
+  module:
+    - image
+    - text
+id: paragraph.places.preview
+targetEntityType: paragraph
+bundle: places
+mode: preview
+content:
+  field_description:
+    type: text_default
+    label: visually_hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_photo:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: places_400x400_
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_site:
+    type: string
+    label: visually_hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }
