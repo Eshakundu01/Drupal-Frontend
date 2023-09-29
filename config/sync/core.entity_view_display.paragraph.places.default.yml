@@ -1,0 +1,45 @@
+uuid: 2781684a-8e87-4c96-954e-f61b43982de7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.places.field_description
+    - field.field.paragraph.places.field_photo
+    - field.field.paragraph.places.field_site
+    - image.style.places_400x400_
+    - paragraphs.paragraphs_type.places
+  module:
+    - image
+    - text
+id: paragraph.places.default
+targetEntityType: paragraph
+bundle: places
+mode: default
+content:
+  field_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_photo:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: places_400x400_
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_site:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }
