@@ -1,0 +1,10 @@
+uuid: a75a1650-2fb3-4a1f-86dd-7c4c06d7289a
+langcode: en
+status: true
+dependencies: {  }
+id: places
+label: 'Top Places'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,31 @@
+uuid: 2e771f67-b307-4601-b156-fc7be1843377
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_spots
+    - node.type.events
+    - paragraphs.paragraphs_type.places
+  module:
+    - entity_reference_revisions
+id: node.events.field_spots
+field_name: field_spots
+entity_type: node
+bundle: events
+label: Spots
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      places: places
+    negate: 0
+    target_bundles_drag_drop:
+      places:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

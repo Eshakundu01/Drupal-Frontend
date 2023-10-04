@@ -1,0 +1,15 @@
+node:
+  css:
+    component:
+      css/components/field.css: {  }
+
+todo:
+  css:
+    component:
+      css/components/todo.css: {  }
+  js:
+    js/todo.js: {  }
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/once
