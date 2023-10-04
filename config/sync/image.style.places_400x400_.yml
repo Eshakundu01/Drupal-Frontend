@@ -1,0 +1,15 @@
+uuid: 54207ff0-1888-42d9-bc71-36c705f6f694
+langcode: en
+status: true
+dependencies: {  }
+name: places_400x400_
+label: Places(400x400)
+effects:
+  c01af1ea-09fd-49d8-b7a1-7cb86833da26:
+    uuid: c01af1ea-09fd-49d8-b7a1-7cb86833da26
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 400
+      height: 400
+      anchor: center-center

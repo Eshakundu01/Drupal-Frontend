@@ -1,0 +1,18 @@
+.shade {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1.25rem;
+  padding: 0 .25rem
+}
+
+.shade.red {
+  color: #c00
+}
+
+.shade.blue {
+  color: #006
+}
+
+.shade.green {
+  color: #03fc66
+}

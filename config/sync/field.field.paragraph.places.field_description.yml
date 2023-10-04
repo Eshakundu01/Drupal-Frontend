@@ -1,0 +1,22 @@
+uuid: fe73f33d-6e86-4ac6-b904-34d61b7aedec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_description
+    - paragraphs.paragraphs_type.places
+  module:
+    - text
+id: paragraph.places.field_description
+field_name: field_description
+entity_type: paragraph
+bundle: places
+label: Description
+description: 'Short description about the site.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

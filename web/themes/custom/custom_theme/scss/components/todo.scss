@@ -1,0 +1,116 @@
+@use '../base/variables' as *;
+
+#todo-input, .save-todo {
+  padding: 0.5rem;
+  padding-left: 1rem;
+  font-size: 1.8rem;
+  background: $white;
+  border: 2px solid $gray;
+  border-radius: 2rem;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.save-todo {
+  color: $yellow;
+  transition: all 0.3s ease;
+
+  &:hover {
+    color: $white;
+    background-color: $yellow;
+  }
+}
+
+.completed {
+  opacity: 0.5;
+
+  & li {
+    text-decoration: line-through;
+  }
+}
+
+.slide {
+  transform: translateX(10rem);
+  opacity: 0;
+}
+
+.filter-todo {
+  color:$yellow;
+  width: 10rem;
+  cursor: pointer;
+  padding: 1.2rem;
+  border: none;
+  background-color: $white;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.select {
+  position: relative;
+  overflow: hidden;
+  border-radius: 50px;
+  border: 2px solid $gray;
+  background-color: $white;
+
+  &::after {
+    content: "\25BC";
+    position: absolute;
+    background:$yellow;
+    top: 0;
+    right: 0;
+    padding: 1.1rem;
+    pointer-events: none;
+    transition: all 0.3s ease;
+  }
+
+  &:hover::after {
+    background: $white;
+    color: $yellow;
+  }
+}
+
+.todo__list {
+  list-style: none;
+}
+
+.todo-content {
+  padding-left: 0.5rem;
+  background: $white;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  transition: 0.5s;
+  border-radius: 2rem;
+  border: 2px solid $gray;
+
+  &:not(:last-child) {
+    margin: 0.625rem 0;
+  }
+
+  & li {
+    flex: 1;
+  }
+}
+
+.trash-btn, 
+.complete-btn {
+  color: $white;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.complete-btn {
+  background: $yellow;
+}
+
+.trash-btn {
+  border-top-right-radius: 1.75rem;
+  border-bottom-right-radius: 1.75rem;
+  background: $gray;
+}
