@@ -1,0 +1,66 @@
+@use '../base/variables' as *;
+
+.field--name-body {
+  font-family: $body;
+  padding: 0.625rem 0;
+  font-size: $primary-size;
+}
+
+.spots__label {
+  font-family: $primary-title;
+  font-size: $title-size;
+  color: $red;
+}
+
+.field--name-field-spots {
+  .field__items {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0.313rem;
+
+    & > .field__item {
+      width: 33.3333%;
+      padding: 0 0.313rem;
+    }
+  }
+}
+
+.card-title {
+  font-family: $card-title;
+  font-size: $title-size;
+  background: linear-gradient(25deg, $midnight-blue, $red);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card-text {
+  font-family: $card-text;
+  font-size: $primary-size;
+  color: $gray;
+}
+
+.hashtags {
+  padding: 0.625rem 0;
+  font-family: $body;
+  font-size: $primary-size;
+  color: $gray;
+  font-style: italic;
+}
+
+.resources {
+  &__label {
+    font-family: $primary-title;
+    font-size: $title-size;
+    color: $red;
+  }
+
+  &__links {
+    list-style-type: square;
+
+    li {
+      font-size: $primary-size;
+      font-family: $body;
+    }
+  }
+}

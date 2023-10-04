@@ -1,0 +1,19 @@
+uuid: 1b7556a2-62d7-46fe-af87-0021b367b320
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_site
+    - paragraphs.paragraphs_type.places
+id: paragraph.places.field_site
+field_name: field_site
+entity_type: paragraph
+bundle: places
+label: Site
+description: 'The name of the site which is a tourist attraction.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
