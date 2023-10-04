@@ -1,0 +1,60 @@
+.field--name-body {
+  font-family: sans-serif;
+  padding: .625rem 0;
+  font-size: 1.563rem
+}
+
+.spots__label {
+  font-family: "Times New Roman";
+  font-size: 2.5rem;
+  color: #c00
+}
+
+.field--name-field-spots .field__items {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 .313rem
+}
+
+.field--name-field-spots .field__items>.field__item {
+  width: 33.3333%;
+  padding: 0 .313rem
+}
+
+.card-title {
+  font-family: "Franklin Gothic Medium";
+  font-size: 2.5rem;
+  background: linear-gradient(25deg, #006, #c00);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
+}
+
+.card-text {
+  font-family: Arial;
+  font-size: 1.563rem;
+  color: grey
+}
+
+.hashtags {
+  padding: .625rem 0;
+  font-family: sans-serif;
+  font-size: 1.563rem;
+  color: grey;
+  font-style: italic
+}
+
+.resources__label {
+  font-family: "Times New Roman";
+  font-size: 2.5rem;
+  color: #c00
+}
+
+.resources__links {
+  list-style-type: square
+}
+
+.resources__links li {
+  font-size: 1.563rem;
+  font-family: sans-serif
+}

@@ -1,0 +1,3 @@
+#Ignore Dependency directories
+node_modules/
+

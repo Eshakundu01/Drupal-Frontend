@@ -2,8 +2,8 @@ _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
 uuid: d0b400f1-8352-44eb-852c-4937f4c457b0
-name: Drupal
-mail: ''
+name: Blogs
+mail: esha.kundu@innoraft.com
 slogan: ''
 page:
   403: ''
