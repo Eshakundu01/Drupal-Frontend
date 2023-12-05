@@ -1,0 +1,5 @@
+name: hcltech
+type: theme
+description: 'SASS starter kit for a Bootstrap Barrio SubTheme.'
+core_version_requirement: ^10 || ^9
+base theme: false
